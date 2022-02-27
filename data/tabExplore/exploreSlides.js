@@ -1,26 +1,25 @@
 var listExploreSlide = [{
-        image: "./assets/img/tabExplore/slides/slide1.JPG"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide2.JPG"
+        image: "./assets/img/tabExplore/slides/slide2.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide3.JPG"
+        image: "./assets/img/tabExplore/slides/slide3.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide4.JPG"
+        image: "./assets/img/tabExplore/slides/slide4.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide5.JPG"
+        image: "./assets/img/tabExplore/slides/slide5.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide6.JPG"
+        image: "./assets/img/tabExplore/slides/slide6.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide7.JPG"
+        image: "./assets/img/tabExplore/slides/slide7.jpg"
     },
     {
-        image: "./assets/img/tabExplore/slides/slide8.JPG"
+        image: "./assets/img/tabExplore/slides/slide8.jpg"
     },
 ];
 
