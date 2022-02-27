@@ -1,4 +1,5 @@
 var listExploreSlide = [{
+    image: "./assets/img/tabExplore/slides/slide2.jpg"
     },
     {
         image: "./assets/img/tabExplore/slides/slide2.jpg"
