@@ -278,6 +278,7 @@ const app = {
             albumList.innerHTML = app.html`
                 ${app.albums.map((album,index) => {
                     return app.html`
+                    
                         <div class="col l-2-4 m-3 c-4 ${albumIndex === 1 && 'mb-30'}">
                             <div class="row__item item--album">
                                 <div class="row__item-container flex--top-left">
@@ -299,7 +300,7 @@ const app = {
                                         <div class="overlay"></div>
                                     </div>
                                     <div class="row__item-info">
-                                        <a href="#" class="row__info-name is-twoline">${album.name}</a>
+                                        <a href="${album.href}" class="row__info-name is-twoline">${album.name}</a>
                                     </div>
                                 </div>
                             </div>
@@ -337,11 +338,11 @@ const app = {
                                         <div class="media__left">
                                             <div class="media__thumb is-rounded mr-10" style="background: url('${mv.authorAvatar}') no-repeat center center / cover"></div>
                                             <div class="media__info">
-                                                <span class="info__title is-active is-twoline">${mv.name}</span>
+                                                <a href="${mv.href}" class="info__title is-active is-twoline">${mv.name}</a>
                                                 <p class="info__author">
                                                     ${mv.author.map((author, index) => {
                                                         return app.html`
-                                                            <a href="#" class="is-ghost">${author}</a>${index < mv.author.length -1 && ', '}
+                                                            <a  class="is-ghost">${author}</a>${index < mv.author.length -1 && ', '}
                                                         `
                                                     })}
                                                 </p>
