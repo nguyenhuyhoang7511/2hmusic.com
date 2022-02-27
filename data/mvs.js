@@ -3,35 +3,40 @@ var listMV = [{
         author: ["Đức Phúc"],
         time: "05:43",
         authorAvatar: "./assets/img/mvArtists/artist10.jpg",
-        image: "./assets/img/MVs/mv10.jpg"
+        image: "./assets/img/MVs/mv10.jpg",
+        href: "https://www.youtube.com/watch?v=__kGJZ-kPno"
     },
     {
         name: "Bigcityboi",
         author: ["Binz", "Touliver"],
         time: "03:43",
         authorAvatar: "./assets/img/mvArtists/artist13.jpg",
-        image: "./assets/img/MVs/mv13.jpg"
+        image: "./assets/img/MVs/mv13.jpg",
+        href: "https://www.youtube.com/watch?v=Z-2XFIPPTqo"
     },
     {
         name: "Em Không Sai Chúng Ta Sai",
         author: ["ERIK"],
         time: "06:28",
         authorAvatar: "./assets/img/mvArtists/artist14.jpg",
-        image: "./assets/img/MVs/mv14.jpg"
+        image: "./assets/img/MVs/mv14.jpg",
+        href: "https://www.youtube.com/watch?v=iwGuiSnr2Qc"
     },
     {
         name: "Sao Anh Chưa Về Nhà",
         author: ["AMEE", "Ricky Star"],
         time: "04:36",
         authorAvatar: "./assets/img/mvArtists/artist12.jpg",
-        image: "./assets/img/MVs/mv12.jpg"
+        image: "./assets/img/MVs/mv12.jpg",
+        href: "https://www.youtube.com/watch?v=RlBkvjVss-s"
     },
     {
         name: "Phía Sau Em",
         author: ["Kay Trần", "Binz"],
         time: "04:06",
         authorAvatar: "./assets/img/mvArtists/artist7.jpg",
-        image: "./assets/img/MVs/mv7.jpg"
+        image: "./assets/img/MVs/mv7.jpg",
+        href: "https://www.youtube.com/watch?v=LklFoy_a3bA"
     },
     {
         name: "Yêu Nhau Nhiều Hơn Nữa",
